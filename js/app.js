@@ -326,6 +326,24 @@ var obtenerUserNameDireccionPorId = (id) => {
     return { username, address }
 }
 
+// Obtener numero de telefono de Usuario por Id
+
+var obtenerTelefonoDelUsuarioPorId = (id) => {
+    var user = usuarios.find(user => user.id == id);
+    if (user) return user.address;
+
+    return "El usuario no existe"
+
+
+
+
+
+}
+
+
+
+
+
 
 
 
